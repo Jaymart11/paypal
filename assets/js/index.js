@@ -5,6 +5,6 @@ console.log(login);
 login.forEach((l) => {
   l.addEventListener("click", function (e) {
     e.preventDefault();
-    window.location.href = "login"; // Redirect after alert
+    window.location.href = "login/index.html"; // Redirect after alert
   });
 });

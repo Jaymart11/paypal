@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(() => {
       successModal.style.display = "none";
 
-      window.location.href = "/";
+      window.location.href = "../index.html";
     }, 1500);
   });
 });
