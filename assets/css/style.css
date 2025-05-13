@@ -1,0 +1,217 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: white;
+  color: #003087;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header .logo {
+  width: 35px;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.btn-login {
+  width: 200px;
+}
+
+button {
+  padding: 15px;
+  background-color: #003087;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0070e0;
+}
+
+.hero {
+  height: 40vh;
+  padding: 60px 20px;
+  background-image: url("https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/PH/optimized/how-PayPal-works_hero_bg_1x.jpg");
+  background-position: 60% center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero h1 {
+  font-size: 60px;
+}
+.hero p {
+  font-size: 20px;
+  width: 30vw;
+}
+
+.phone,
+.sell,
+.want {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.phone img {
+  padding-right: 50px;
+  justify-self: end;
+}
+
+.phone div {
+  align-self: center;
+  width: 30vw;
+}
+
+.phone div li {
+  color: gray;
+}
+
+.sell {
+  background-image: url("https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/PH/optimized/how-PayPal-works_hero_bg_1x.jpg");
+  background-position: 60% center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.sell .p {
+  width: 30vw;
+  justify-self: end;
+  align-self: center;
+}
+
+.want {
+  height: 25vh;
+}
+
+.want .p1 {
+  width: 30vw;
+  align-self: center;
+  justify-self: end;
+}
+
+.want .p2 {
+  width: 30vw;
+  align-self: center;
+  justify-self: start;
+}
+
+.protect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #003087;
+  color: white;
+  height: 35vh;
+}
+
+.protect p {
+  width: 35vw;
+}
+
+.question {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 40vh;
+}
+
+.question div {
+  width: 20vw;
+}
+
+.question div span {
+  display: block;
+}
+
+.question .p1 {
+  justify-self: end;
+}
+.question .p2 {
+  justify-self: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 10vh;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.login-container input {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-container .logo {
+  width: 35px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Dim background */
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20% auto;
+  width: 300px;
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content.success {
+  background-color: #d4edda; /* Light green background */
+  color: #155724; /* Dark green text */
+  border: 1px solid #c3e6cb;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #eee;
+  margin-top: 60px;
+}
